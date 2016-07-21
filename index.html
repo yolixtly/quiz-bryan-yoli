@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Quiz App</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<section>
 
-<meta charset="UTF-8">
-<title>Quiz App</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<section>
-	<form id="record-question">
-		<div id="answers-wrapper">
+			
 
-		<h1 id="question-area">What is 1 + 2? </h1>
-		<input id="answer-area" type="radio">
-		<label for="answer-area">answer here</label>
-		</div>
-	</form>
-	<div id="button-area">
-		<button type="button">Next Question</button>	
-	</div>
-	<div class="scoreboard">1 out of 5</div>
-	</section>	
+				<div id="question-wrapper">
+					<h1 id="question-area">What is 1 + 2? </h1>
+				</div>
+				<form id="record-question">
+				<div id="answers-wrapper">
+				
+					<input id="answer-area" type="radio">
+					<label for="answer-area">answer here</label>
+
+				</div>
+			</form>
 
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="app.js"></script>
+
+			<div id="button-area">
+				<button type="button">Next Question</button>
+			</div>
+			<div class="scoreboard">1 out of 5</div>
+		</section>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="app.js"></script>
 	</body>
 </html>
